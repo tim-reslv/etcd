@@ -1,0 +1,5 @@
+---
+# vars file for roles/etcd
+members: "{{ groups['etcd'] }}"
+etcd_version: "3.2.7"
+
